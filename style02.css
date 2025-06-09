@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.rounded-icon {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+	color: #000000;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("img/padrao-sem-emenda-de-elementos-de-cabeleireiro-ilustracao-em-vetor-de-fundo-de-icones-de-doodle-papel-de-parede-o-conceito-de-salao-de-cabeleireiro-e-salao-de-beleza_78677-9535.avif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #0a0a0a;
+}
+
+header {
+	background-color: #f26c7c;
+	color: white;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header h1 {
+	margin-left: 10px;
+}
+
+header button {
+	background-color: white;
+	color: #d81b60;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.login-button {
+	background-color: white;
+	color: #f26c7c;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.login-button:hover {
+	background-color: #ffe3e7;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+}
+
+.login-box {
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	
+}
+
+.login-box h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.login-box label {
+	display: block;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.login-box input {
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;	
+}
+
+.login-box button {
+	margin-top: 20px;
+	width: 100%;
+	padding: 10px;
+	background-color: #f26c7c;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;	
+}
+
+.login-button a{
+	display: inline-block;
+	margin-top: 1rem;
+	text-decoration: none;
+	color: black;
+	
+
+}
+
+footer {
+	background-color: #f26c7c;
+	color: white;
+	padding: 2rem 2rem;
+	margin-top: 3rem;
+	display: flex;
+}
+
+;footer h2 {
+	margin-left: 10px;
+	margin: 0;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.footer .social {
+	margin-top: 1rem;
+}
+
+.footer .social a {
+	margin: 0 0.5rem;
+	color: #f26c7c;
+	font-size: 1.5rem;
+}
+  
+.texto {
+	display: flex;
+	align-items:stretch;
+	justify-content:center;
+	width: 155%;
+	margin-left: 10px;
+	margin-top: 1rem;
+	font-size: 1.2rem;	
+  }
+
+.texto ul li{
+	list-style-type: none;
+}
+
+.copy{
+	display: flex;
+	align-items:stretch;
+	justify-content:center;
+	width: 100%;	
+}
+
+.header {
+	width: 20%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.header ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+	margin-top: 1rem;
+}
+
+.header ul li a {
+	background-color: white;
+	color: #f26c7c;
+	padding: 10px;
+	border-radius: 70%;
+}
