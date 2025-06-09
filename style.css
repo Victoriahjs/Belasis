@@ -1,0 +1,150 @@
+* {
+      box-sizing: border-box;
+    }
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+}
+
+
+header {
+	background-color: #f26c7c;
+	color: white;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header h1 {
+	margin-left: 10px;
+}
+
+
+img {
+	width: 600px;
+	height: auto;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.servicos ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.servicos ul li a {
+	font-size: large;
+	text-transform: capitalize;
+	list-style-type: none;
+	background-color: #fb8391;
+	border-radius: 25px;
+	color: white;
+	flex-wrap: 600;
+	padding: 10px 20px;
+	transition: 03s;
+}
+
+.servicos ul li a {
+	border-bottom: white;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+.servicos ul li a:hover {
+	background-color: #d45565;
+	border-bottom: 3px solid;
+}
+
+.login-button {
+	background-color: white;
+	color: #f26c7c;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.login-button:hover {
+	background-color: #ffe3e7;
+}
+
+.intro {
+	padding: 40px;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+	background-color: #f26c7c;
+	color: white;
+	padding: 1rem 1rem;
+	margin-top: 1rem;
+	display: flex;
+}
+
+footer .logo {
+	margin-left: 6px;
+	margin: 0;
+	font-size: 1.8rem;
+	font-weight: bold;
+	
+}
+
+.footer .social {
+	margin-top: 1rem;
+}
+
+.footer .social a {
+	margin: 0 0.5rem;
+	color: #f26c7c;
+	
+}
+  
+.texto {
+	display: flex;
+	align-items:stretch;
+	justify-content:center;
+	width: 149%;
+	margin-left: 6px;
+	margin-top: 1rem;
+		
+  }
+
+.texto ul li{
+	list-style-type: none;
+}
+
+.copy{
+	display: flex;
+	align-items:stretch;
+	justify-content:center;
+	width: 100%;	
+}
+
+.header {
+	width: 25%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 5 5px;
+	margin-top: 1rem;
+}
+
+.header ul li a{
+	background-color: white;
+	color: #d45565;
+	padding: 9px;
+	border-radius: 70%;
+}
